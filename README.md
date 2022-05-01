@@ -9,7 +9,7 @@ npm install
 ```
 Cuando el servidor del API se encuentre en ejecución.
 
-en caso de ser necesario, modificar la variable VUE_APP_BACKEND_URL para reconocer la dirección url del api.
+en caso de ser necesario, modificar la variable VUE_APP_BACKEND_URL ubicada en el archivo .env en la raiz del proyecto para reconocer la dirección url del api.
 
 se deja la url http://localhost:8000/api por defecto ya que es donde el servidor del API laravel recibe las peticiones
 
