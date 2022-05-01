@@ -1,21 +1,31 @@
 # facturas_front
 
-## Project setup
+## Instalación
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Configuración para uso con API
+```
+Cuando el servidor del API se encuentre en ejecución.
+
+en caso de ser necesario, modificar la variable VUE_APP_BACKEND_URL para reconocer la dirección url del api.
+
+se deja la url http://localhost:8000/api por defecto ya que es donde el servidor del API laravel recibe las peticiones
+
+dejar el prefijo /api en la url ya que las rutas se encuentran configuradas para realizar las peticiones mediante dicho prefijo
+```
+### Ejecución para modo desarrollo
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Comando de Compilación en producción
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Comando para corrección de archivos
 ```
 npm run lint
 ```
