@@ -1,5 +1,9 @@
 # facturas_front
 
+## Requisitos
+* Node Version 14.16.0
+* vue/cli Version 5.0.4
+
 ## Instalación
 ```
 npm install
